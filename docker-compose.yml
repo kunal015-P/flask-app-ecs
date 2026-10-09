@@ -1,0 +1,7 @@
+services:
+  flask:
+    container_name: flask-app
+    image: kunal161/flask-app
+    ports:
+      - "80:80"
+    
